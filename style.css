@@ -72,3 +72,10 @@ button:hover {
 #detalhes {
     font-size: 18px;
 }
+.preference{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0.5rem;
+}
+
