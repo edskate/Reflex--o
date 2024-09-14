@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de marcação de ensaios.</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h2>Programação  com Marcação.</h2>
+    <div class="container">
+        <h1>Marcação de Ensaio</h1>
+        <form id="form-ensaio">
+            <label for="data">Data do Ensaio:</label>
+            <input type="date" id="data" required>
+
+            <label for="hora">Hora do Ensaio:</label>
+            <input type="time" id="hora" required>
+
+            <button type="submit">Marcar Ensaio</button>
+        </form>
+
+        <div id="resultado" class="resultado">
+            <h2>Detalhes do Ensaio:</h2>
+            <p id="detalhes"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
