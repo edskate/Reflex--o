@@ -15,7 +15,11 @@ p{
 h2{
     color: rgb(14, 2, 171);
 }
-
+h3{
+    color: rgb(49, 3, 168);
+    font-size: 20px;
+    text-shadow: 10px 10px 10px 7em #000000;
+}
 
 .container {
     background-color: #fff;
