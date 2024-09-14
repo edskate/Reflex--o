@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Controle de marcação de ensaios.</title>
+    <title>Marcação de Ensaio</title>
     <link rel="stylesheet" href="style.css">
-   
 </head>
 <body>
-    <h2>Programação  com Marcação.</h2>
     <div class="container">
         <h1>Marcação de Ensaio</h1>
         <form id="form-ensaio">
             <label for="data">Data do Ensaio:</label>
             <input type="date" id="data" required>
 
-            <label for="hora">Hora do Ensaio:</label>
-            <input type="time" id="hora" required>
+            <label for="horaEntrada">Horário de Entrada:</label>
+            <input type="time" id="horaEntrada" required>
+
+            <label for="horaSaida">Horário de Saída:</label>
+            <input type="time" id="horaSaida" required>
 
             <button type="submit">Marcar Ensaio</button>
         </form>
@@ -27,7 +28,6 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
-    <a href="Marcar01.html">Marcação 2</a>
+    <script src="script.js"></script>
 </body>
 </html>
